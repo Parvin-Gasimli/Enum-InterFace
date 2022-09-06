@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(179, 178, 178);
+    overflow-x: hidden;
+}
+
+form {
+    display: inline-block;
+}
+form input {
+
+    padding: 10px 0px;
+}
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#todoList {
+    margin: 0 auto;
+    width: 520px;
+}
+#add{
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    width: 66%;
+   
+}
