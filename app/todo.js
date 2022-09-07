@@ -62,17 +62,17 @@ var number = 12;
 number = 34;
 console.log(number);
 var city;
-city = 'Baku';
+city = "Baku";
 console.log(city);
 var isThere = true;
 console.log(isThere);
-var data;
-data = 12;
-data = "Hello Code";
-console.log(data);
-var numberList = [1, 2, 3, 4, 5, 6,];
-console.log(numberList[2]);
-var cityList = ["baku", 'Naxcivan', 'gence'];
+// let data:any
+// data=12;
+// data="Hello Code"
+// console.log(data);
+// let numberList:number[]=[1,2,3,4,5,6,]
+// console.log(numberList[2]);
+var cityList = ["baku", "Naxcivan", "gence"];
 console.log(cityList[0]);
 //Enums
 var Colors;
@@ -84,6 +84,6 @@ var Colors;
 console.log(Colors.Blue);
 //Functions
 function getNumberSum(nume1, nume2) {
-    return nume1 + parseInt(nume2);
+    return nume1 + nume2;
 }
 console.log(getNumberSum(442, 22));

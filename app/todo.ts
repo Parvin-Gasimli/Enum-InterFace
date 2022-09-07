@@ -75,38 +75,38 @@ function toAlltask(task: string, description: string) {
 
 //Data TypeScript
 
-let number:number=12;
+let number: number = 12;
 number = 34;
 console.log(number);
 
-let city:string
-city='Baku'
+let city: string;
+city = "Baku";
 console.log(city);
-let isThere:boolean=true;
+let isThere: boolean = true;
 console.log(isThere);
 
-let data:any
-data=12;
-data="Hello Code"
-console.log(data);
-let numberList:number[]=[1,2,3,4,5,6,]
-console.log(numberList[2]);
+// let data:any
+// data=12;
+// data="Hello Code"
+// console.log(data);
+// let numberList:number[]=[1,2,3,4,5,6,]
+// console.log(numberList[2]);
 
-
-let cityList:Array<string>  = ["baku",'Naxcivan','gence'];
+let cityList: Array<string> = ["baku", "Naxcivan", "gence"];
 console.log(cityList[0]);
 
 //Enums
 
-enum Colors{
-  Red='Red',  Green='Green', Blue='Blue',
+enum Colors {
+  Red = "Red",
+  Green = "Green",
+  Blue = "Blue",
 }
 
 console.log(Colors.Blue);
 
 //Functions
-function getNumberSum(nume1?:number,nume2?:number) {
+function getNumberSum(nume1?: number, nume2?: number) {
   return nume1 + nume2;
-
 }
-console.log(getNumberSum(442,22));
+console.log(getNumberSum(442, 22));
